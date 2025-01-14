@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", serif;
 }
 
 #main{
@@ -33,4 +34,8 @@
     width: 10%;
     font-size: 18px;
     cursor: pointer;
+    transition: 0.3s;
+}
+#main button:hover{
+    scale: 1.2;
 }
